@@ -6,7 +6,7 @@
 /*   By: mabou-ha <mabou-ha@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/28 13:04:05 by mabou-ha          #+#    #+#             */
-/*   Updated: 2025/09/28 15:51:38 by mabou-ha         ###   ########.fr       */
+/*   Updated: 2025/09/29 11:58:58 by mabou-ha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ class Brain
 		Brain& operator=(const Brain& obj);
 		~Brain();
 		void setIdea(int idx, const std::string& idea);
-		const std::string getIdea(int idx) const;
+		const std::string& getIdea(int idx) const;
 };
 
 #endif
