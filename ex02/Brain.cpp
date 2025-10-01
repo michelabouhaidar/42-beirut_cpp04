@@ -53,7 +53,7 @@ void Brain::setIdea(int idx, const std::string& idea)
 
 const std::string& Brain::getIdea(int idx) const
 {
-	static std::string empty;
+	static const std::string empty;
 	if (idx < 0 || idx >= 100)
 	{
 		std::cout << "Index out of range, Brain::getIdea" << std::endl;
